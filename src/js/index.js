@@ -10,7 +10,7 @@ botaoFiltrar.addEventListener('click', function () {
 
         let mostrarCarta = true;
 
-        const temFiltroDeCategoria - categoriaSelecionada !== '';
+        const temFiltroDeCategoria = categoriaSelecionada !== '';
 
         const cartaNaoBateComFiltroDeCategoria = categoriaSelecionada.toLowerCase() !== categoriaCarta.toLowerCase();
 
@@ -18,7 +18,7 @@ botaoFiltrar.addEventListener('click', function () {
             mostrarCarta = false
         }
 
-        if (precoMaximoSelecionado) !== '' && parseFloat(precoCarta) > parseFloat(precoMaximoSelecionado){
+        if (precoMaximoSelecionado !== '' && parseFloat(precoCarta) > parseFloat(precoMaximoSelecionado)){
         mostrarCarta = false;
     }
 
